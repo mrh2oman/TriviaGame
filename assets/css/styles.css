@@ -1,0 +1,80 @@
+body {
+    font-family: 'Galdeano', serif;
+    font-weight: 400;
+    background-image: url("http://cdn3-www.comingsoon.net/assets/uploads/gallery/dawn-of-the-dead-1978/dawndead7.jpg");
+    background-size: cover;
+}
+
+
+#title {
+    color: black;
+    font-family: 'Galdeano', serif;
+    font-size: 50px;
+    text-decoration: none;
+    float:left;
+
+}
+
+#startButton{
+    font-size: 70px;
+}
+
+button:hover{
+    background-color: #c9181e;
+    border-color: black;
+    border-radius: 10px;
+}
+
+button{
+    float:right;
+    border-color:black;
+    border-radius: 10px;
+}
+
+.pickAnswer:hover{
+        background-color: #6c7d7d;
+}
+
+.pickAnswer{   
+    font-family:"Galdeano";
+    font-size: 40px; 
+  
+}
+
+#choices{
+        display:inline-block;
+        width:40%;
+      
+}
+
+#question{
+    font-size: 50px;
+
+}
+
+#gameMessage{
+    font-family:"Galdeano";
+    font-size: 20px;
+    float:right;
+}
+
+#timerSeconds{
+    font-family:"Galdeano";
+    font-size:100px;
+}
+
+@media (max-width: 975px) and (min-width: 400px) {
+    .pickAnswer{
+                color:#6c7d7d;
+                text-shadow: 2px 0 black;
+    }
+    .pickAnswer:hover{
+            color:black;
+    }
+
+    #gameMessage{
+        color:white;
+        text-shadow: 2px 0 black;
+        background-color:black;
+    }
+}
